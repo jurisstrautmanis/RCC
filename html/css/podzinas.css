@@ -1,0 +1,52 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  background-color: white;
+}
+
+div{
+  width: 50px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background-color: rgb(200, 120, 90);
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+#po2{
+  background-color: rgb(173, 235, 226);
+  border: 1px solid rgba(152, 164, 27, 0.2);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(149, 201, 149);
+}
+#po2:hover{
+  background-color: rgb(149, 201, 149);
+}
+#po2:active{
+  background-color: white;
+  box-shadow: 1px 1px 5px 3px rgb(149, 191, 201);
+}
+#po3:hover{
+  background-color: rgb(184, 201, 149);
+}
+#po4{
+  background-color: #fff;
+  font-size: 8px;
+  width: 32px;
+  border-radius: 22px;
+  border: 2px solid rgb(201, 199, 199);
+  box-shadow: 1px 2px 2px rgb(154, 193, 230);
+}
+#po4:hover{
+  background-color: rgb(144, 188, 235);
+}
+#po4:active{
+  background-color: yellow;
+  box-shadow: 1px 1px 5px 3px rgb(237, 229, 139);
+}
+#po5:active{
+  background-color: black;
+}
+
