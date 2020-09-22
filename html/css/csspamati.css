@@ -1,0 +1,86 @@
+body{
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+  border-collapse: collapse;
+}
+.table1, .table2 {
+  border-collapse: collapse;
+}
+/* .table2 {
+  border-collapse: collapse;
+} */
+
+#heading1 {
+  color: red;
+}
+/*
+reset css
+
+user-agent
+
+Krāsas
+*/
+.tdgreen{
+  color: green;
+}
+#button{
+  width: 40px;  
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  border: 1px solid #33c;
+  border-radius: 8px;
+  opacity: .5;
+  box-shadow: 2px 2px 5px grey;
+  margin: 5px;
+  /* user-select: none; */
+  cursor: pointer;
+}
+#button:hover{
+  background-color: lightgreen;
+}
+#button:active{
+  background-color: red;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+input{
+  outline: none;
+}
+
+#table1{
+  width: 100%;
+  border-collapse: collapse;
+}
+#table1 td{
+  text-align: center;
+}
+#table1 tbody tr:nth-child(odd){
+  background-color: aquamarine;
+}
+#table1 td+td{
+  color: red;
+}
+#table p+span{
+  color: blue;
+}
+
+#table1 span~p{
+  color: yellow;
+}
+.klucitis{
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: #aac;
+  border: 1px solid red;
+  margin: 0px;
+}
+#klucisi{
+  background-color: #777;
+  padding: 10px;
+  
+}

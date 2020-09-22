@@ -1,0 +1,38 @@
+
+body{
+  background-color: azure;
+  box-sizing: border-box;
+}
+
+div{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+
+}
+table{
+  border: 1px solid orange;
+}
+th{
+  border: 1px solid green;
+}
+td{
+  border: 1px solid blue;
+}
+fieldset{
+  max-width: 400px;
+}
+#email{
+  width: 150px;
+}
+#password{
+  width: 100px;
+}
+#ieiet{
+  width: 50px;
+}
+#email_1 {
+  width: 170px;
+}
+
